@@ -1,0 +1,5 @@
+ https://producthelp.webtrends.com/
+ 
+ Report Table Overview
+
+ Adding and Removing Dimensions
