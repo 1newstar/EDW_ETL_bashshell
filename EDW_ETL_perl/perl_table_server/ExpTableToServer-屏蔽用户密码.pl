@@ -37,9 +37,6 @@
 # my $c_text             ='';                         ##注释文本
 # my $c_maxrownum = 10000000;                         ##定义一个.DAT文件行数的限制
 # my $c_DATA_DT='DATA_DT';
-# my $c_ftp_ip='192.168.20.21';
-# my $c_ftp_user='WZH_data';
-# my $c_ftp_passwd='m0dTMi\<q3';
 # my $c_delimiter = "|";                              ##生成.DAT文件的分隔符
 #3.传入参数变量
 # my $i_date;                                         ##数据日期
@@ -83,9 +80,6 @@ my $c_username         =$ENV{'USER'};               ##获取系统用户名
 my $c_text             ='';                         ##注释文本
 my $c_maxrownum = 10000000;                         ##定义一个.DAT文件行数的限制
 my $c_DATA_DT='DATA_DT';                            ##配置表中日期变量
-my $c_ftp_ip='192.168.7.78';
-my $c_ftp_user='etl_adm';
-my $c_ftp_passwd='123';
 my $c_delimiter = "|";                              ##生成.DAT文件的分隔符
 
 #4.自定义数值变量

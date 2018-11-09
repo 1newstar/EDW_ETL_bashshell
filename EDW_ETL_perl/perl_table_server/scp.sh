@@ -12,4 +12,4 @@ send "$password\n"
 expect "100%"
 expect eof
 
-# expect scp.sh '192.168.7.78' 'etl_adm' '123' '/DXP/DATA/EDW/ROUT/BEIJING_WO_USER_ADD_2016-11-02.DAT' '/app/sftp/wzhdataftp/beijing/BEIJING_WO_USER_ADD_2016-11-02.DAT'
+# expect scp.sh '' '' '' '/DXP/DATA/EDW/ROUT/BEIJING_WO_USER_ADD_2016-11-02.DAT' '/app/sftp/wzhdataftp/beijing/BEIJING_WO_USER_ADD_2016-11-02.DAT'
