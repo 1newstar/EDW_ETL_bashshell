@@ -1,0 +1,19 @@
+traffic analysis
+	page views
+	hits
+	unique users
+	visits
+	sessions
+behavior analysis
+	site statistics
+	frequency
+	path analysis
+	conversion rates
+
+
+Measurable Improvement Cycle
+	可衡量的改进周期
+	Stage 1: Report
+	Stage 2: Analyze
+	Stage 3: Decide
+	Stage 4: Act

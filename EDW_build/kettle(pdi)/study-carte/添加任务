@@ -1,0 +1,30 @@
+http://hostname:port/kettle/runTrans/?trans=/path/to/transname&level=DebugLevel&ParameterName=ParameterValue*
+http://hostname:port/kettle/runJob/?job=/path/to/jobname&level=DebugLevel&ParameterName=ParameterValue*
+
+
+http://127.0.0.1:8080/kettle/runJob/?job=/time
+http://127.0.0.1:8080/kettle/runTrans/?trans=/time_trans
+
+
+For file (XML) based transformations:http://*username:password@hostname:port/kettle/executeTrans/?trans=PathTo{}File*
+For transformations stored in a repository:http://*username:password@hostname:port/kettle/executeTrans/?rep=RepositoryName&user=RepositoryUser&pass=RepositoryPassword&trans=PathTo{}TransformationInRepository*
+Please note that you need to replace forward slashes with %2F in your browser.  That leads to this URL in our example:
+
+
+http://127.0.0.1:8080/kettle/status/
+
+http://127.0.0.1:8080/kettle/status/?xml=true
+
+http://host:port/kettle/status <-- status page
+http://host:port/kettle/status?xml=true <-- machine readable status page
+
+
+
+http://wiki.pentaho.com/display/EAI/Remote+execution+of+jobs
+
+http://wiki.pentaho.com/display/EAI/JDBC+and+SQL+Reference
+
+
+jdbc:pdi://localhost:8084/kettle?debugtrans=/tmp/jdbc.ktr
+
+http://127.0.0.1:8080/kettle?debugtrans==/time_trans

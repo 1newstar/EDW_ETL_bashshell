@@ -1,0 +1,28 @@
+ connection reset by peer
+ 
+
+ File "爬取验证码.py", line 50, in <module>
+   urllib.request.urlretrieve(url, filename)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 188, in urlretrieve
+   with contextlib.closing(urlopen(url, data)) as fp:
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 163, in urlopen
+   return opener.open(url, data, timeout)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 466, in open
+   response = self._open(req, data)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 484, in _open
+   '_open', req)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 444, in _call_chain
+   result = func(*args)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 1282, in http_open
+   return self.do_open(http.client.HTTPConnection, req)
+ File "C:\software\Anaconda3\lib\urllib\request.py", line 1257, in do_open
+   r = h.getresponse()
+ File "C:\software\Anaconda3\lib\http\client.py", line 1197, in getresponse
+   response.begin()
+ File "C:\software\Anaconda3\lib\http\client.py", line 297, in begin
+   version, status, reason = self._read_status()
+ File "C:\software\Anaconda3\lib\http\client.py", line 258, in _read_status
+   line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+ File "C:\software\Anaconda3\lib\socket.py", line 575, in readinto
+   return self._sock.recv_into(b)
+onnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
